@@ -1,0 +1,12 @@
+.user {
+    border-radius: 10px;
+    border: 5px solid salmon;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
